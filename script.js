@@ -28,7 +28,6 @@ const printList = (data) => { //función que imprime información (de la data) d
     
 }
 
-
 // 3 - Hacer un fetch a fakestoreapi para obtener las categorías de productos
 
 fetch('https://fakestoreapi.com/products/categories')
@@ -92,6 +91,35 @@ const printSelect = (data) => {
     })
     
 }
+
+const printToggle = () => {
+
+    const div = document.createElement("div")
+    div.setAttribute("id", "div")
+    document.getElementById("lista").appendChild(div)
+
+    const label = document.createElement("label")
+    document.getElementById("div").appendChild(label)
+
+    const labelTxt = document.createTextNode("Ordenar")
+    label.appendChild(labelTxt)
+
+    const toggleLabel = document.createElement("label")
+    toggleLabel.setAttribute("class", "switch")
+    document.getElementById("div").appendChild(toggleLabel)
+
+    const toggle = document.createElement("input")
+    toggle.type = "checkbox"
+    toggleLabel.appendChild(toggle)
+
+    const span = document.createElement("span")
+    span.setAttribute("class", "slider")
+    toggleLabel.appendChild(span)
+
+}
+
+printToggle();
+
 
 // Chequear estructura de la respuesta:
 // http://jsonviewer.stack.hu/
