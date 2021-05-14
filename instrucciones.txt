@@ -1,0 +1,38 @@
+Tienda online Advanced + Git Flow
+
+|- Retomaremos el proyecto de la tienda online y añadiremos mejoras de estilo y una nueva funcionalidad. Trabajaremos en todo momento con GIt:
+
+*Crear un repositorio con los ficheros básicos del proyecto (HTML, CSS Y JS). El integrante del equipo que lo cree deberá agregar como colaboradores a los demás participantes.
+
+*Una vez inicializado deberá crearse una rama develop a partir de la rama main. Develop será la rama donde se fusionarán (merge) los cambios una vez que estén terminados, funcionando correctamente.
+
+*A partir de develop, cada integrante del equipo debe crear sus propias ramas donde trabajará en tareas específicas (features).
+
+*Cuando se complete una tarea y esté lista para integrarla al proyecto, se deberá hacer una Pull Request antes de mergear a develop (main no debe tocarse)
+
+*Dicha Pull Request será revisada por algún otro integrante del equipo, pudiendo agregar comentarios en el código y solicitando que se realicen cambios antes de mergear.
+
+*Una vez mergeados y testeados todos los cambios en develop se podrá mergear a main.
+
+|- Tareas a realizar en el proyecto:
+
+*Añadir todos los estilos necesarios en CSS para que la aplicación sea responsive y pueda visualizarse correctamente en formato desktop, tablet y mobile. Se podrá tomar como referencia visual cualquier tienda online y replicar su diseño.
+
+*Agregar un botón de tipo toggle que permita ordenar los resultados de la búsqueda por precio ascendente y descendente. El botón deberá llevar un texto que diga "Ordenar por precio ascendente" y al hacer click deberá cambiar su texto a "Ordenar por precio descendente".
+
+|- Realizar una Pull Requests por cada una de estas tareas de maquetación:
+
+*Añadir las media queries necesarias para trabajar los estilos orientados a desktop, tablet y mobile (breakpoints a elección).
+
+*Dar los estilos necesarios a la tarjeta en la que se pintan los productos. El objetivo es que todas las tarjetas se vean iguales (mismo tamaño y proporciones), sin importar el contenido.
+
+*Dar estilos al nuevo botón.
+Terminar los estilos de toda la aplicación.
+
+|- Realizar una Pull Requests por cada una de estas tareas relacionadas con las nuevas funcionalidades:
+
+*Añadir un botón que sea capaz de alternar su texto con cada click.
+
+*Añadir al botón la funcionalidad correspondiente para que ordene los productos por precio ascendente o descendente según corresponda.
+
+*Corregir la funcionalidad del select que filtra los productos por categorías si fuese necesario.
