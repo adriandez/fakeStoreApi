@@ -1,0 +1,37 @@
+
+body{
+
+    background-color: rgb(195, 224, 226)
+}
+
+
+img{
+
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+    margin-top: 2px;
+}
+
+@media screen and (min-width:600px){
+    .productos{
+
+     display: flex;
+        }
+}
+
+@media screen and (min-width:1024px){
+    .productos{
+    width: 60%;
+    justify-content: center;
+    }
+
+
+ 
+
+
+
+ 
